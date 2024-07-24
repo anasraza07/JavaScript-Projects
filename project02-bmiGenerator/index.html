@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 01 - Color changer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <h1>BMI Calculator</h1>
+    <div class="container">
+        <div class="box">
+            <form class="bmi-form js-bmi-form">
+                <div class="height-input">
+                    <label for="">Height in cm:</label>
+                    <input id="js-height" type="number" required>
+                </div>
+
+                <div class="weight-input">
+                    <label for="">Weight in kg:</label>
+                    <input id="js-weight" type="number" required>
+                </div>
+                <button type="submit">Calculate</button>
+            </form>
+
+            <div class="result">
+                <div class="bmi js-bmi"></div>
+                <div class="status js-status"></div>
+            </div>
+            <div class="bmi-guide">
+                <h3>BMI Weight Guide</h3>
+                <p class="under-weight">Underweight: Below 18.5</p>
+                <p class="healthy-weight">Healthyweight: 18.5 - 24.9</p>
+                <p class="over-weight">Overweight: 25.0 - 29.9</p>
+                <p class="obesity">Obesity: 30.0 and Above</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
+
 </html>

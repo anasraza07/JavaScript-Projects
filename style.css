@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial';
+  background-color: #212121;
+}
+
+.projects{
+
+}
+
+.project{
+    background-color: #fff;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
