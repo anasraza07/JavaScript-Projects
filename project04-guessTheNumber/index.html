@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 04 - Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    
-    
+<body>
+    <h3>Guess a number between 1 - 100</h3>
+    <form action="">
+        <input type="number" placeholder="Enter your guess number" required>
+        <button type="submit">Submit</button>
+    </form>
+    <div class="result-container">
+        <p class="previous-guesses">Previous Guesses:</p>
+        <p class="guesses-remaining">Guesses Remaining:</p>
+        <p class="result"></p>
+        <button class="start-new-game" style="display:none">
+            Start New Game
+        </button>
+    </div>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
