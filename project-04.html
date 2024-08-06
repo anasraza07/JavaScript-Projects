@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 04 - Guess The Number</title>
+    <link rel="stylesheet" href="styles/projects/project-04.css">
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/navbar.css">
+</head>
+
+<body>
+    <nav class="js-navbar"></nav>
+
+    <div class="container">
+        <div class="header">
+            <h2>Number Guessing Game</h2>
+            <p>Try and guess a random number between 1 and 100.</p>
+            <p>You have 10 attempts to guess the right number.</p>
+        </div>
+        <div class="game">
+            <h1>Guess a number</h1>
+            <form action="">
+                <input type="number" placeholder="Enter your guess number" required>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="result-container">
+                <p class="previous-guesses">Previous Guesses:</p>
+                <p class="guesses-remaining">Guesses Remaining:</p>
+                <div class="result"></div>
+                <button class="start-new-game" style="display:none">
+                    Start New Game
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="scripts/project-04.js"></script>
+</body>
+
+</html>

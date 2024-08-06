@@ -1,3 +1,6 @@
+import {renderNavbar} from './navbar.js';
+renderNavbar();
+
 const form = document.querySelector('.js-bmi-form');
 
 form.addEventListener('submit', function (e) {

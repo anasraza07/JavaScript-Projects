@@ -1,0 +1,21 @@
+button {
+  cursor: pointer;
+}
+
+.container {
+  height: 100%;
+  padding: 97px 0;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+button {
+  padding: 8px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid gray;
+  margin-right: 5px;
+}

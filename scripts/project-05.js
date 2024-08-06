@@ -1,3 +1,6 @@
+import { renderNavbar } from './navbar.js';
+renderNavbar();
+
 function randomColor() {
     const hex = '0123456789ABCDEF';
     let color = '#'
@@ -14,7 +17,7 @@ document.querySelector('.start').addEventListener('click', startChangingColor);
 document.querySelector('.stop').addEventListener('click', stopChangingColor);
 
 function startChangingColor() {
-    if (!intervalId){
+    if (!intervalId) {
         intervalId = setInterval(() => {
             document.body.style.backgroundColor = randomColor();
         }, 500);

@@ -1,3 +1,6 @@
+import {renderNavbar} from './navbar.js';
+renderNavbar();
+
 const input = document.querySelector('input');
 const form = document.querySelector('form');
 const previousGuessesElem = document.querySelector('.previous-guesses');
@@ -59,7 +62,7 @@ function displayResult(resultMsg) {
 
 function playAgain() {
     randomNumber = generateRandomNumber();
-    startNewGame.style.cssText = 'display: block; margin: 0 auto;';
+    startNewGame.style.cssText = 'display: block;';
 
     startNewGame.addEventListener('click', startGame);
 };

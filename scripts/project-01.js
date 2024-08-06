@@ -1,3 +1,6 @@
+import {renderNavbar} from './navbar.js';
+renderNavbar();
+
 const colorBoxes = document.getElementsByClassName('color-box');
 
 for (let i = 0; i < colorBoxes.length; i++) {
